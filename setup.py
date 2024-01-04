@@ -5,7 +5,7 @@ setup(
     version='0.1',
     packages=find_packages(),
     include_package_data=False,
-    description='A Package Of Efficient SAM Project',
+    description='A Package Of realsensepack Project',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     author='William Kuang',
