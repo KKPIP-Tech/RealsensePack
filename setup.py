@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='realsensepack',
-    version='0.1',
+    version='0.2',
     packages=find_packages(),
     include_package_data=False,
     description='A Package Of realsensepack Project',
@@ -21,7 +21,6 @@ setup(
     ],
     
     classifiers=[
-        "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: GNU General Public License (GPL)",
