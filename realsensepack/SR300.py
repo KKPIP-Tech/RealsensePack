@@ -13,7 +13,7 @@ RS_OUTPUT = namedtuple("RealSense",
                         "depth_frame", "depth_array", "depth_colormap",
                         "frame_width", "frame_height", "depth_delay"])
 
-class RealSenseSR200:
+class RealSenseSR300:
     def __init__(self) -> None:
         
         self._pipline = rs.pipeline()

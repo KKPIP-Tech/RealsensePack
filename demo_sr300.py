@@ -1,10 +1,10 @@
 import cv2
 from time import time
-from realsensepack import RealSenseSR200, SR300_OUTPUT
+from realsensepack import RealSenseSR300, SR300_OUTPUT
 
 if __name__ == "__main__":
     
-    RS = RealSenseSR200()
+    RS = RealSenseSR300()
     RS.start()
     
     while True:
