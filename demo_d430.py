@@ -1,5 +1,5 @@
 import cv2
-from realsensepack import realsense as RealsenseD430
+from realsensepack import RealsenseD430
 
 if __name__ == '__main__':
     Depth_Camera = RealsenseD430(record=False)
